@@ -1,0 +1,521 @@
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /*background-color: yellow;*/
+  position: relative;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+}
+
+.search-bar-container{
+  margin-top: 1vh;
+  position: relative;
+  background-color: red;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: black;
+  z-Index: 1;
+}
+
+.webpage-title{
+  font:100px;
+  font-weight: bolder;
+}
+
+.webpage-subtitle{
+  font:10px;
+  font-style: italic;
+}
+
+.new-search-bar{
+  flex-direction: column;
+  font-size: calc(1px + 2vmin);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.input-search-box{
+  width: 100vh;
+  height: 5vh
+}
+
+.button-search-box{
+  height: 5vh;
+  width: 10vh;
+  margin-left: 1vh;
+}
+
+
+.filter{
+  max-width: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 5px;
+}
+
+.results-filter{
+  display: flex;
+  flex-direction: row; 
+}
+
+
+.search-bar{
+  position: relative;
+  min-width: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+}
+
+.sc-bcXHqe.bncmtB.react-search-box-dropdown{
+  margin-top: 0%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.sc-gswNZR.ilZVLX{
+  font-size: 20px;
+}
+
+.platforms-container {
+  text-align: left;
+  padding-bottom: 10px;
+  max-width:120px;
+  margin-left: 10px;
+  background-color:lightsteelblue;
+  padding-left: 10px;
+}
+
+.one-platform {
+  background-color: blueviolet;
+  text-align: left;
+}
+
+.size-container {
+  text-align: left;
+  padding-bottom: 10px;
+  max-width:120px;
+}
+
+.title-filter{
+  text-align: left;
+  font-size:medium;
+  font-weight: bold;
+}
+.subtitle-filter{
+  text-align: left;
+  font-size:xx-small;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  }
+
+.filter-switch{
+  width: 100px;
+}
+
+.currency-container {
+  text-align: left;
+  padding-bottom: 10px;
+  max-width:120px;
+
+}
+.one-currency {
+  background-color: blueviolet;
+  text-align: left;
+}
+
+.product-description{
+  /*background-color: yellow;*/
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+}
+
+.search-results{
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+  flex-wrap: wrap;
+  width: 100%;
+  border-style: solid;
+
+}
+.product-image-wrapper {
+  position: relative;
+  display: inline-block;
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.wishlist-btn {
+  position: absolute;
+  top: 2px;
+  left: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border:none;
+}
+
+.viewwishlist-btn {
+  border-color: black;
+  background-color:white;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  cursor: pointer;
+  width: fit-content;
+  height: 50px;
+  top: 90px;
+  right: 70px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+ 
+  /* zindex bring button to the front of page */
+  z-index: 99099;
+}
+
+.wishlist-btn:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.wishlist-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(48, 11, 106, 0.5);
+}
+
+.wishlist-btn:active {
+  transform: translateY(5px);
+}
+
+.wishlist-panel-close-btn{
+  border-radius: 100px;
+}
+
+.product-option{
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(1px + 2vmin);
+  color: white;
+}
+
+.product-vendor{
+  background-color: black;
+  width: 100px;
+}
+
+.product-price{
+  width: 100px;
+}
+
+.price-stats-container{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.price-stats{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.price-column-header{
+  display: flex;
+  width: 20%;
+  font-size: small;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+  border-bottom-style: dotted;
+}
+
+.price-platform-column{
+  display: flex;
+  width: 20%;
+  justify-content: left;
+  border-bottom-style: dotted;
+  font-size: small;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+.price-column{
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  border-bottom-style: dotted;
+}
+
+.get-price-stats {
+  display: flex;
+  font-size: small;
+  color: blue;
+  justify-content: left;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.get-price-stats:hover {
+  font-size:large;
+  cursor: pointer;
+}
+
+
+.price-stats-card{
+  width: 70vh;
+  padding-left: 10px;
+
+}
+
+.product-card{
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.product-container{
+  margin-left: 2vh;
+  padding-top: 5px;
+  display: flex;
+  width: 100%;
+  align-items: left;
+}
+
+.product-details{
+  padding-left: 10px;
+  width: 100%;
+}
+
+.price-column-header {
+  font-size: small;
+  color: black;
+  font-weight: bold;
+  width: 20%;
+}
+
+.price-column {
+  font-size: small;
+  color: black;
+  width: 20%;
+}
+
+
+.product-name{
+  font-size:larger;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.product-image{
+  width: 210px;
+  height: 210px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: grey;
+  padding-right: 10px;
+  margin-bottom: 2px;
+}
+
+.signin-container{
+  align-items: center;
+  text-align: center;
+}
+
+.card-img-product-image{
+  width: fit-content;
+}
+#product-image-wrapper{
+  width:200px;
+  min-height: 1000px;
+}
+
+
+/* Button container styles */
+.google-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #737373;
+  border: 1px solid #737373;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  padding-bottom: 5px;
+  /* zindex bring button to the front of page */
+  z-index: 9999;
+}
+
+
+.signout-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #737373;
+  border-radius: 4px;
+  border: 1px solid #737373;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  /* zindex bring button to the front of page */
+  z-index: 9999;
+}
+
+
+/* Button hover styles */
+.google-btn:hover {
+  background-color: #1465de;
+  color: #fff;
+}
+
+/* Button icon styles */
+.google-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 16px;
+  width: 28px;
+  height: 20px;
+  position: relative;
+  right: -10px;
+}
+
+
+/* Text container styles */
+.google-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.welcome-message {
+  font-weight: bold;
+  color: #0f0202;
+  position: relative;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+
+/* Button hover styles */
+.signout-btn:hover {
+  background-color: #890def;
+  color: #fff;
+}
+
+.error-message{
+  background-color: red;
+  font-weight: bold;
+}
+
+.wishlist-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+  overflow-y: auto;
+  padding: 20px;
+  z-index: 9999;
+}
+
+.wishlist-panel.open {
+  transform: translateX(0);
+}
+
+.handleRemoveFromWishlistBtn{
+  border-radius: 100px;
+  background-color: white;
+  max-width: fit-content;
+}
+
+/* Button hover styles */
+.viewwishlist-btn:hover {
+  background-color: red;
+  color: #fff;
+}
+
+
+.price-panel-open {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+  overflow-y: auto;
+  padding: 20px;
+  z-index: 9999;
+}
+
+.price-panel-open.open {
+  transform: translateX(0);
+}
+
+.prices-close-btn{
+  color: green;
+}

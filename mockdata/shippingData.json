@@ -1,0 +1,33 @@
+{
+    "data": [
+      {
+        "platformName": "alias",
+        "shippingFee": 14.50
+      },
+      {
+        "platformName": "hypeboost",
+        "shippingFee": 10
+      },
+      {
+        "platformName": "kikikickz",
+        "shippingFee": 4.90
+      },
+      {
+        "platformName": "klekt",
+        "shippingFee": 45
+      },
+      {
+        "platformName": "laced",
+        "shippingFee": 7
+      },
+      {
+        "platformName": "restocks",
+        "shippingFee": 10
+      },
+      {
+        "platformName": "stockx",
+        "shippingFee": 32.95
+      }
+    ],
+    "error": null
+  }

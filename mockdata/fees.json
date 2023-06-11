@@ -1,0 +1,33 @@
+{
+    "data": [
+      {
+        "platformName": "alias",
+        "fees": 14.50
+      },
+      {
+        "platformName": "hypeboost",
+        "fees": 11.03
+      },
+      {
+        "platformName": "kikikickz",
+        "fees": 5.41
+      },
+      {
+        "platformName": "klekt",
+        "fees": 45
+      },
+      {
+        "platformName": "laced",
+        "fees": 7
+      },
+      {
+        "platformName": "restocks",
+        "fees": 11.03
+      },
+      {
+        "platformName": "stockx",
+        "fees": 32.95
+      }
+    ],
+    "error": null
+  }
